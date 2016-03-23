@@ -19,10 +19,6 @@ float voltage_func(int a_read_v){
 	return (analogRead(a_read_v)*aRef) / 1023.0 * ((r1+r2)/r2);
 }
 
-// Ammeter Function
-float amper_func(int a_read_i){
-	
-}
 void setup(){
 }
 
